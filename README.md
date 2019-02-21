@@ -37,4 +37,4 @@ We made a database that includes Divvy Bike and Taxi trip data in Chicago, for t
 ## Load
   - The final database is hosted by cloud.mongodb.com, so nobody needs to store this locally
   - We chose to use a non-relational database, mongo, over sql because because mysql has a risk of timing out when loading large datasets; mongo db is more forgiving
-  - Our collections are: _Divvy_Stations_, _Divvy_Trips_, _Taxi_something?_
+  - Our collections are: _Divvy_Stations_, _Divvy_Trips_, _Taxi_Trips_, _Census_Track_
