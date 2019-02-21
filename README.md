@@ -2,9 +2,9 @@
 A merge of Divvy and Taxi data in Chicago, aggregated by route
 
 ### Meet the Team Members
-__haneenammouri__ and __jzefron__ : team Taxi 
-__Michele-Lodl__ and __sponre01__ : team Divvy
-__ayang2012__ : team cloud-based database set-up
+- __haneenammouri__ and __jzefron__ : team Taxi 
+- __Michele-Lodl__ and __sponre01__ : team Divvy
+- __ayang2012__ : team cloud-based database set-up
 
 ### Meet the Database
 
