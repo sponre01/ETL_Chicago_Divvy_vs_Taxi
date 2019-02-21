@@ -27,10 +27,10 @@ We made a database that includes Divvy Bike and Taxi trip data in Chicago, for t
 #### _Divvy_
  - The raw csv files were loaded into pandas dataframes and appended to one another to form two dataframes, one including trip information and one including station information.
  - The trip dataframe included columns called "from_station_id" and "to_station_id", so we created those corresponding columns in the station dataframe in order to use the data collections together in our final database. 
- - The data from Divvy was already fairly clean. There were a few columns that included mostly NaN values that were dropped.
+ - The data from Divvy was already fairly clean. There were a few columns that included mostly NaN values that were dropped in the Station dataframe. In the Trip dataframe, the "start time" and "end time" columns were dropped to lighten the load. These were deemed redundant for our needs, since we already have a "trip_duration" column.
  - The stations from one quarter to another didn't change much, but we wanted to make sure to capture all stations that were relevant over our defined time period, so after appending all files together, we dropped duplicate rows.
 #### _Taxi_
-
+- The "start time" and "end time" columns were dropped to lighten the load. These were deemed redundant for our needs, since we already have a "trip duration" column.
 
 
 
