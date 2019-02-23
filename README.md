@@ -23,7 +23,7 @@ __Jupyter Notebooks__
  - Note: original csvs are too large for github! Simply download and put in a "Resources" folder to re-create the notebooks
  #### _Taxi_
  - Taxi source data: https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew#column-menu
- - Data was obtained via the API
+ - Data was obtained via the API: https://dev.socrata.com/docs/app-tokens.html
  
  
  
@@ -36,7 +36,13 @@ __Jupyter Notebooks__
  - The data from Divvy was already fairly clean. There were a few columns that included mostly NaN values that were dropped in the Station dataframe. In the Trip dataframe, the "start time" and "end time" columns were dropped to lighten the load. These were deemed redundant for our needs, since we already have a "trip_duration" column.
  - The stations from one quarter to another didn't change much, but we wanted to make sure to capture all stations that were relevant over our defined time period, so after appending all files together, we dropped duplicate rows.
 #### _Taxi_
-- The "start time" and "end time" columns were dropped to lighten the load. These were deemed redundant for our needs, since we already have a "trip duration" column.
+- Information was extracted using cityof chicago API(app token).
+- Create an account on Chicago Data portal (https://data.cityofchicago.org/signup).
+- To obtain an app token, register an application in the Socrata profile. Once the application is made, click on App Tokens in the left-hand navigation bar. The application token will be visible.
+- We changed what objects to get from database by adding info in this select file to lighten the load
+- The number of rows was limited to 1 million lines for this excersie. Can either increase the rows or use the value offset to the get code.
+- The data was cleaned up removing NaN and extra columns that were not needed for the DataFrame.
+ 
 
 
 
