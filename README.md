@@ -12,9 +12,9 @@ We made a database that includes Divvy Bike and Taxi trip data in Chicago, for t
 
 __Jupyter Notebooks__
  - [Divvy Trip Information](https://github.com/sponre01/ETL_Chicago_Divvy_vs_Taxi/blob/master/Divvy_Trips.ipynb)
- - [Taxi Trip Information](https://www.google.com)
- - [Divvy Station Information](https://github.com/sponre01/ETL_Chicago_Divvy_vs_Taxi/blob/master/Divvy_Stations.ipynb)
- - [Taxi Station Information](https://www.google.com)
+ - [Taxi Trip Information](https://github.com/sponre01/ETL_Chicago_Divvy_vs_Taxi/blob/master/Taxi_trips.ipynb)
+ - [Divvy Station (Location) Information](https://github.com/sponre01/ETL_Chicago_Divvy_vs_Taxi/blob/master/Divvy_Stations.ipynb)
+ - [Taxi Census Track (Location) Information](https://github.com/sponre01/ETL_Chicago_Divvy_vs_Taxi/blob/master/census_track_location.ipynb)
 
 ## Extract
 #### _Divvy_
