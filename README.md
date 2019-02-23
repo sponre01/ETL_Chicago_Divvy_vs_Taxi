@@ -10,6 +10,11 @@ A merge of Divvy and Taxi data in Chicago, aggregated by route
 
 We made a database that includes Divvy Bike and Taxi trip data in Chicago, for the 2017 fiscal year (09-2016 to 08-2017). The motivation for this database is that we could potentially answer useful questions about transportation usage based on routes.
 
+__Jupyter Notebooks__
+ - [Divvy Trip Information](https://github.com/sponre01/ETL_Chicago_Divvy_vs_Taxi/blob/master/Divvy_Trips.ipynb)
+ - [Taxi Trip Information](https://www.google.com)
+ - [Divvy Station Information](https://github.com/sponre01/ETL_Chicago_Divvy_vs_Taxi/blob/master/Divvy_Stations.ipynb)
+ - [Taxi Station Information](https://www.google.com)
 
 ## Extract
 #### _Divvy_
