@@ -15,6 +15,7 @@ We made a database that includes Divvy Bike and Taxi trip data in Chicago, for t
 #### _Divvy_
  - Divvy source data: https://www.divvybikes.com/system-data. The files to download are: "2016 Q3 & Q4 DATA", "2017 Q1 & Q2 DATA" and "2017 Q3 & Q4 DATA"
  - The original data sources were csv files
+ - Note: original csvs are too large for github! Simply download and put in a "Resources" folder to re-create the notebooks
  #### _Taxi_
  - Taxi source data: https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew#column-menu
  - Data was obtained via the API
